@@ -9,11 +9,12 @@ fixture `Data-Driven Tests`
 dataSet.forEach(data => {
     test(`Enter '${data.name}'`, async t => {
     const firstCheckbox  = XPathSelector('//input[@type="checkbox"]');
+    const developerName = XPathSelector('//*[@id="developer-name"]');
         await t
-            .typeText('#developer-name', data.name)
+            .typeText(developerName, data.name)
+            .click(firstCheckbox)
             .click('#tried-test-cafe')
             .typeText('#comments', data.comment)
-            .click(firstCheckbox)
             .click('#submit-button')
             .expect(Selector('#article-header').textContent).eql(data.resultText);
     });
