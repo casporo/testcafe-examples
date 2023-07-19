@@ -1,5 +1,4 @@
 import { Helper } from './helper';
-import XPathSelector from './xpath-selector';
 
 fixture`End to End Test`;
 

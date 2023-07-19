@@ -1,5 +1,5 @@
 import { Selector, t } from 'testcafe';
-import XPathSelector from './xpath-selector';
+import XPathSelector from '../xpath-selector';
 
 export class Helper {
     constructor () {
