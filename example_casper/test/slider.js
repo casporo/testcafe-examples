@@ -8,9 +8,10 @@ fixture`Mouse options`
 test('Set an estimate', async t => {
     await t
         .click('#tried-test-cafe')
-        .drag(sliderHandle, 360, 0, {
+        .drag(sliderHandle, 10, 0, {
             offsetX:   10,
             offsetY:   10,
+            speed:     0.01,
             modifiers: {
                 shift: true,
             },
