@@ -1,0 +1,17 @@
+[
+    {
+        "ID": "KIX",
+        "IATA": "KIX",
+        "ICAO": "RJBB"
+    },
+    {
+        "ID": "GKA",
+        "IATA": "GKA",
+        "ICAO": "AYGA"
+    },
+    {
+        "ID": "MAG",
+        "IATA": "MAG",
+        "ICAO": "AYMD"
+    }
+]
