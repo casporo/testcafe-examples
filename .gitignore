@@ -8,3 +8,4 @@ yarn.lock
 *.html
 *.xml
 *.png
+report.json

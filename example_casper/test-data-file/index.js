@@ -11,7 +11,8 @@ const sliderHandle = Selector('#slider').child();
 const rateValue    = Selector('.slider-value').nth(1);
 
 fixture `Data-Driven Tests`
-    .page `https://devexpress.github.io/testcafe/example/`;
+    //.page `https://devexpress.github.io/testcafe/example/`;
+    .page `./`;
 
 dataSet.forEach(data => {
     test(`Enter '${data.name}'`, async t => {
