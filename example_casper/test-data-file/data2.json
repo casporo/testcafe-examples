@@ -1,0 +1,9 @@
+[
+    {
+        "name": "John Smith",
+        "comment": "TestCafe is awesome!",
+        "dropdown": "Command Line",
+        "OS": "Linux",
+        "resultText": "Thank you, John Smith!"
+    }
+]

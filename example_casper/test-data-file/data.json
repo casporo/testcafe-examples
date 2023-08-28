@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Jim Jones",
+        "comment": "TestCafe is awesome!",
+        "dropdown": "Both",
+        "OS": "Windows",
+        "resultText": "Thank you, Jim Jones!"
+    },
+    {
+        "name": "Jim Jones",
+        "comment": "TestCafe is awesome!",
+        "dropdown": "JavaScript API",
+        "OS": "MacOS",
+        "resultText": "Thank you, Jim Jones!"
+    }
+]

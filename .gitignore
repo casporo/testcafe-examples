@@ -3,3 +3,9 @@
 .vscode
 yarn.lock
 .npmrc
+
+# ignore all html, xml and png file
+*.html
+*.xml
+*.png
+report.json

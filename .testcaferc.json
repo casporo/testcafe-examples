@@ -1,0 +1,22 @@
+{
+    "browsers": "chrome",
+    "baseUrl": "https://devexpress.github.io/testcafe/example/",
+    "reporter": [
+        {
+            "name": "spec"
+        },
+        {
+            "name": "json",
+            "output": "reports/report.json"
+        }
+    ],
+    "screenshots": {
+        "path": "example_casper/screenshots/",
+        "takeOnFails": true,
+        "pathPattern": "${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png"
+    },
+    "selectorTimeout": 3000,
+    "assertionTimeout": 1000,
+    "pageLoadTimeout": 1000,
+    "speed": 1
+}
